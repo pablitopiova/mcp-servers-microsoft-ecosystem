@@ -62,8 +62,11 @@ First-party servers published by Microsoft product teams.
 - **[Azure/aks-mcp](https://github.com/Azure/aks-mcp)** — MCP server that lets AI assistants interact with **Azure Kubernetes Service (AKS)** clusters.
 - 🐳 **[Azure/mcp-kubernetes](https://github.com/Azure/mcp-kubernetes)** — Generic **Kubernetes** MCP server (vendor-neutral) maintained by the Azure org.
 - **[AzureCosmosDB/azure-cosmos-mcp-server-samples](https://github.com/AzureCosmosDB/azure-cosmos-mcp-server-samples)** — Reference **Azure Cosmos DB** MCP server samples across multiple languages.
+- **[bilims/mcp-sqlserver](https://github.com/bilims/mcp-sqlserver)** — Read-only MCP server for **Microsoft SQL Server** schema discovery and query exploration.
 - **[dminkovski/azure-diagram-mcp](https://github.com/dminkovski/azure-diagram-mcp)** — Turn natural-language prompts into Azure architecture diagrams (PNG) via Python Diagrams + Graphviz.
+- **[dstreefkerk/ms-sentinel-mcp-server](https://github.com/dstreefkerk/ms-sentinel-mcp-server)** — Read-only MCP server for **Microsoft Sentinel** logs, incidents, analytics rules, and Entra data.
 - **[erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server)** — Microsoft Azure Data Lake Storage Gen2 MCP server.
+- **[erikhoward/azure-fhir-mcp-server](https://github.com/erikhoward/azure-fhir-mcp-server)** — MCP server for **Azure Health Data Services FHIR** resources.
 - **[dkmaker/mcp-azure-tablestorage](https://github.com/dkmaker/mcp-azure-tablestorage)** — Query Azure Table Storage from an MCP client during local development.
 - **[bmoussaud/mcp-azure-apim](https://github.com/bmoussaud/mcp-azure-apim)** — Use **Azure API Management** to expose any existing REST API as an MCP server, or to proxy/govern existing MCP servers.
 
@@ -76,6 +79,7 @@ First-party servers published by Microsoft product teams.
 
 - **[microsoft/azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp)** — *(official, see above)*
 - **[Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops)** — Community Azure DevOps MCP server with broad tooling coverage.
+- 🐳 **[RyanCardin15/AzureDevOps-MCP](https://github.com/RyanCardin15/AzureDevOps-MCP)** — Azure DevOps MCP server for projects, boards, repos, and work item workflows.
 - **[Vortiago/mcp-azure-devops](https://github.com/Vortiago/mcp-azure-devops)** — Azure DevOps MCP server (Python SDK).
 - **[viamus/mcp-azure-devops](https://github.com/viamus/mcp-azure-devops)** — Azure DevOps MCP over HTTP for repos, pipelines, work items, delivery metadata.
 - **[renatogroffe/azdevops-apisec-mcp-audit](https://github.com/renatogroffe/azdevops-apisec-mcp-audit)** — APIsec MCP Discovery & Audit from an Azure DevOps pipeline.
@@ -90,12 +94,18 @@ First-party servers published by Microsoft product teams.
 ## Microsoft 365 & Graph
 
 - **[merill/lokka](https://github.com/merill/lokka)** — MCP server for Microsoft 365 with broad **Microsoft Graph** coverage.
+- **[Aanerud/MCP-Microsoft-Office](https://github.com/Aanerud/MCP-Microsoft-Office)** — Large Microsoft 365 MCP server over Graph with mail, calendar, Teams, files, and Office document tooling.
 - **[acuvity/mcp-server-microsoft-graph](https://github.com/acuvity/mcp-server-microsoft-graph)** — Microsoft Graph MCP server (users, mail, calendar, Teams).
 - **[bradystroud/mcp-server-microsoft-graph](https://github.com/bradystroud/mcp-server-microsoft-graph)** — Alternative community implementation of Microsoft Graph via MCP.
+- 🐳 **[desek/outlook-local-mcp](https://github.com/desek/outlook-local-mcp)** — Local Outlook MCP server for mail and calendar via Microsoft Graph.
+- **[elyxlz/microsoft-mcp](https://github.com/elyxlz/microsoft-mcp)** — Microsoft Graph MCP server covering Outlook, calendar, OneDrive, and contacts.
 - **[InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server)** — **Microsoft Teams** MCP server: read messages, create messages, manage channels.
 - **[floriscornel/teams-mcp](https://github.com/floriscornel/teams-mcp)** — Comprehensive **Microsoft Teams** + Graph MCP server: messaging, search, user management.
+- 🐳 **[ITSpecialist111/MicrosoftGraph_Transcript_MCP](https://github.com/ITSpecialist111/MicrosoftGraph_Transcript_MCP)** — Remote MCP server to retrieve **Microsoft Teams** meeting transcripts via Graph.
 - **[ryaker/outlook-mcp](https://github.com/ryaker/outlook-mcp)** — Access **Outlook** mail, calendar, and contacts via Microsoft Graph from any MCP client.
+- **[XenoXilus/outlook-mcp](https://github.com/XenoXilus/outlook-mcp)** — Outlook MCP server with mail, calendar, and SharePoint file access through Microsoft Graph.
 - 🐳 **[DEmodoriGatsuO/sharepoint-mcp](https://github.com/DEmodoriGatsuO/sharepoint-mcp)** — **SharePoint** connector via Microsoft Graph: access documents and lists from any MCP client.
+- **[guillehr2/Excel-MCP-Server-Master](https://github.com/guillehr2/Excel-MCP-Server-Master)** — MCP server for automated **Excel** workbook operations without requiring desktop Excel.
 - **[godwin3737/mcp-server-microsoft365-filesearch](https://github.com/godwin3737/mcp-server-microsoft365-filesearch)** — Search files across Microsoft 365 via MCP.
 - **[michMartineau/mcp-server-microsoft-todo](https://github.com/michMartineau/mcp-server-microsoft-todo)** — Microsoft To-Do MCP server written in Go.
 
@@ -105,7 +115,9 @@ First-party servers published by Microsoft product teams.
 
 - **[microsoft/fabric-rti-mcp](https://github.com/microsoft/fabric-rti-mcp)** — *(official, see above)* — Eventhouse / ADX / KQL via MCP.
 - **[microsoft/skills-for-fabric](https://github.com/microsoft/skills-for-fabric)** — Official collection of skills and MCP systems to operate over **Microsoft Fabric** from CLI, VS Code, or Claude.
+- **[Augustab/microsoft_fabric_mcp](https://github.com/Augustab/microsoft_fabric_mcp)** — Read-only MCP server for Microsoft Fabric workspaces, lakehouses, jobs, and lineage.
 - 🐳 **[santhoshravindran7/Fabric-Analytics-MCP](https://github.com/santhoshravindran7/Fabric-Analytics-MCP)** — MCP server for **Microsoft Fabric Analytics** with secure auth-backed access.
+- **[tmdaidevs/Force-Fabric-MCP-Server](https://github.com/tmdaidevs/Force-Fabric-MCP-Server)** — Fabric optimization MCP server with diagnostics and optional auto-fix workflows.
 
 > Looking for Power BI, Purview or OneLake MCP servers? Open a PR when you find one — this area is still sparse.
 
@@ -117,6 +129,9 @@ First-party servers published by Microsoft product teams.
 - **[microsoft/pp-mcp](https://github.com/microsoft/pp-mcp)** — Official MS **Power Platform** MCP labs and samples.
 - **[microsoft/Dataverse-skills](https://github.com/microsoft/Dataverse-skills)** — Official MS skills for AI coding agents wrapping the **Dataverse** MCP server, CLI, Python SDK, and PAC CLI.
 - **[aschauera/MCPinCopilotStudio](https://github.com/aschauera/MCPinCopilotStudio)** — Demonstrations of MCP server implementations consumed by **Copilot Studio** agents.
+- **[mafzaal/d365fo-client](https://github.com/mafzaal/d365fo-client)** — Dynamics 365 Finance & Operations MCP server and Python client for D365 F&O workflows.
+- **[mwhesse/dataverse-mcp](https://github.com/mwhesse/dataverse-mcp)** — MCP server for Dataverse schema operations (tables, columns, relationships, option sets).
+- **[neronotte/Greg.Xrm.Mcp](https://github.com/neronotte/Greg.Xrm.Mcp)** — Dataverse-focused MCP server framework and appmaker tooling for Power Platform development.
 - 📘 **[Extend Copilot Studio agents with MCP servers](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agent-extend-action-mcp)** — Official docs on wiring MCP servers into Copilot Studio.
 
 ---

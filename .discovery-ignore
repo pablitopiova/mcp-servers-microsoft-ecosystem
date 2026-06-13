@@ -48,3 +48,20 @@ simonkurtz-MSFT/drawio-mcp-server
 Azure-Samples/remote-mcp-functions-dotnet
 Azure-Samples/remote-mcp-functions-python
 Azure-Samples/remote-mcp-functions-typescript
+
+# 2026-06 review (#14) rejections
+
+# Collection of connectors/samples, not a focused MCP server entry
+troystaylor/SharingIsCaring
+
+# Multi-cloud generic diagram server, not Microsoft-ecosystem focused
+andrewmoshu/diagram-mcp-server
+
+# Sample app that uses MCP tools; not a standalone Microsoft MCP server
+Azure-Samples/snippy
+
+# Workshop/training repo, not an MCP server project
+dotnet-presentations/ai-workshop
+
+# Agent sample that consumes MCP servers, not an MCP server itself
+Azure-Samples/openai-mcp-agent-dotnet
