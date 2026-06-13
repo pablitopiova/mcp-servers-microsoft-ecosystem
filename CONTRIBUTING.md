@@ -76,4 +76,4 @@ We won't list:
 
 ## Questions?
 
-Open an issue — or find [Pablo](https://github.com/ppiova) on [LinkedIn](https://www.linkedin.com/in/ppiova/).
+Open an issue — or find [Pablo](https://github.com/ppiova) on GitHub.
