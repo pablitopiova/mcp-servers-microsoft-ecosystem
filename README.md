@@ -15,6 +15,8 @@ This list complements [`microsoft/mcp`](https://github.com/microsoft/mcp) — th
 - ✅ Clients, starters, learning resources, and security guidance
 - ✅ Pointers to working samples you can clone and run today
 
+> **Last full review:** 2026-10 — all linked repositories were checked for removal, archival, renames, and staleness. Legend: 🐳 = Docker-ready, 📘 = documentation, *(official)* = published by a Microsoft/GitHub product team.
+
 > **New to MCP?** MCP is the open protocol — often called *"USB-C for AI agents"* — that lets any LLM client (Claude, GitHub Copilot, Cursor, VS Code, Copilot Studio, Agent Framework…) talk to any tool server through a single standard. Think of each server below as a **universal adapter** between AI and a specific Microsoft product.
 
 ---
